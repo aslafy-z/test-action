@@ -1,7 +1,7 @@
-name: Pull Request
+name: push
 
 on:
-  pull_request:
+  push:
 
 env:
   FOO: "bar"
@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: ../actions/foo@master
+    - uses: ../actions/foo@main
