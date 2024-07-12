@@ -1,0 +1,10 @@
+name: 'foo'
+author: 'foo'
+runs:
+  using: 'docker'
+  image: 'docker://ubuntu'
+  args:
+    - env
+  env:
+    FII: FOO
+  
