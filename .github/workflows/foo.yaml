@@ -11,4 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: ../actions/foo@main
+      - uses: actions/checkout@v3
+      - uses: /.github/actions/foo@main
